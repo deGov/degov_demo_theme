@@ -44,10 +44,9 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-	'use strict';
+	"use strict";
 
 	(function ($, Drupal) {
-	  'use strict';
 
 	  /*
 	  This is what a behavior should look like:

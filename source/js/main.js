@@ -1,5 +1,4 @@
 (function ($, Drupal) {
-  'use strict';
 
   /*
   This is what a behavior should look like:
