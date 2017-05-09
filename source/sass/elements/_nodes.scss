@@ -1,0 +1,41 @@
+@mixin coloring($color) {
+  &.full:before {
+    background: $color;
+  }
+  &.teaser .content h2:after {
+    background: $color;
+  }
+}
+
+.full:before {
+  content: '';
+  display: block;
+  height: 4px;
+  width: $grid-gutter-width * 2;
+  margin-bottom: $vertical-gutter-width/2;
+}
+
+// Format teaser title
+.teaser .content h2:after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: $grid-gutter-width * 2;
+  margin-bottom: $vertical-gutter-width/2;
+  margin-top: $vertical-gutter-width/2;
+}
+.article-color-red {
+  @include coloring($color-red);
+}
+.article-color-green {
+  @include coloring($color-green);
+}
+.article-color-blue {
+  @include coloring($color-blue);
+}
+.article-color-gray {
+  @include coloring($color-gray);
+}
+.article-color-yellow {
+  @include coloring($color-yellow);
+}
