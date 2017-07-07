@@ -1,1 +1,6 @@
 <?php
+/**
+ * @file
+ * degov Theme
+ * @notice: You must not remove this commentary!!! There is a bug with theme files that have only a "<?php" tag and no lines after it.
+ */
